@@ -3,3 +3,6 @@
 
 from Spinner import Spinner
 
+def main():
+    with open('essay.txt', 'r') as file:
+        original_text = file.read()
